@@ -433,6 +433,111 @@ a {
     font-size: 0.9rem;
 }
 
+/* Policy Page */
+.policy-page {
+    background: var(--bg-light);
+}
+
+.policy-hero {
+    padding: 64px 0 44px;
+    background: white;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.policy-back {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 600;
+    margin-bottom: 22px;
+}
+
+.policy-back:hover {
+    color: var(--primary-dark);
+}
+
+.policy-hero h1 {
+    font-size: 2.75rem;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+
+.policy-hero p {
+    max-width: 720px;
+    color: var(--text-muted);
+    font-size: 1.1rem;
+}
+
+.policy-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 18px;
+    margin-top: 22px;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+.policy-content {
+    padding: 48px 0 80px;
+}
+
+.policy-container {
+    max-width: 920px;
+}
+
+.policy-document {
+    background: white;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 48px;
+    box-shadow: var(--shadow-sm);
+}
+
+.policy-document h2 {
+    font-size: 1.45rem;
+    margin: 36px 0 16px;
+    line-height: 1.35;
+}
+
+.policy-document h2:first-child {
+    margin-top: 0;
+}
+
+.policy-document h3 {
+    font-size: 1.12rem;
+    margin: 26px 0 12px;
+    line-height: 1.4;
+}
+
+.policy-document p,
+.policy-document li {
+    color: var(--text-muted);
+    font-size: 1rem;
+    line-height: 1.85;
+}
+
+.policy-document p {
+    margin-bottom: 14px;
+}
+
+.policy-document ol {
+    margin: 0 0 18px 1.25rem;
+}
+
+.policy-document li {
+    padding-left: 4px;
+    margin-bottom: 10px;
+}
+
+.policy-document a {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.policy-document a:hover {
+    color: var(--primary-dark);
+}
+
 /* Responsive */
 @media (max-width: 900px) {
     .hero-content, .highlight-row {
@@ -476,5 +581,25 @@ a {
     
     .section-title {
         font-size: 2rem;
+    }
+
+    .policy-hero {
+        padding: 44px 0 32px;
+    }
+
+    .policy-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .policy-content {
+        padding: 28px 0 56px;
+    }
+
+    .policy-document {
+        padding: 28px 22px;
+    }
+
+    .policy-document h2 {
+        font-size: 1.25rem;
     }
 }
